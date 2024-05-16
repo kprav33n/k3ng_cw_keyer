@@ -77,8 +77,8 @@ FEATURE_SIDETONE_SWITCH
 // rotary encoder pins and options - rotary encoder code from Jim Balls M0CKE
 #ifdef FEATURE_ROTARY_ENCODER
   #define OPTION_ENCODER_HALF_STEP_MODE     // Half-step mode?
-  #define rotary_pin1 43                     // CW Encoder Pin
-  #define rotary_pin2 42                     // CCW Encoder Pin
+  #define rotary_pin1 42                     // CW Encoder Pin
+  #define rotary_pin2 43                     // CCW Encoder Pin
   #define OPTION_ENCODER_ENABLE_PULLUPS     // define to enable weak pullups.
 #endif //FEATURE_ROTARY_ENCODER
 
